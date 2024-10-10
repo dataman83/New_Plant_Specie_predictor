@@ -1,3 +1,3 @@
-# New_Plant_Specie_predictor
+# Plant_Gen
 Evolutionary Plant Traits Prediction Algorithm
 This code predicts a new plant species based on traits like height, leaf area, and seed mass using data from an existing Tasmanian plant dataset. It defines a "fitness function" that favors plant traits like a height of 15 meters, leaf area around 10 cm², and seed mass around 0.01 g. The algorithm then generates new traits by applying slight random variations to the traits of existing species. Through backtracking, it recursively tries to find a new species with higher fitness. If no suitable species is found after a set number of attempts, it stops.
